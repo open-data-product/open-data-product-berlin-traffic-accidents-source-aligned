@@ -1,0 +1,23 @@
+---
+id: berlin-traffic-accidents-source-aligned
+metadata:
+  name: Berlin Traffic Accidents source-aligned
+  owner: Open Data Product
+  description:
+  url: https://github.com/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned
+  license: CC-BY 4.0
+  updated:
+  schema:
+input_ports:
+transformation_steps:
+output_ports:
+observability:
+  quality:
+  operational:
+  slas:
+  security:
+consumers:
+use_cases:
+classification: source-aligned
+ubiquitous_language: []
+tags:
