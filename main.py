@@ -82,7 +82,7 @@ def main(clean, quiet):
         results_path=silver_path,
         encoding="iso-8859-1",
         delimiter=";",
-        clean=True,
+        clean=clean,
         quiet=quiet,
     )
 

@@ -1,3 +1,267 @@
 ---
 attribute_groups:
+  - 2018: &2018
+      - name: id
+      - name: federal_state
+      - { name: district_id, zfill: 2 }
+      - { name: planning_area_id_until_2020, zfill: 8 }
+      - { name: street, remove: True }
+      - { name: planning_area_id_from_2021, zfill: 8 }
+      - name: year
+      - name: month
+      - name: hour
+      - name: weekday
+        value_mapping:
+          "1": "Sunday"
+          "2": "Monday"
+          "3": "Tuesday"
+          "4": "Wednesday"
+          "5": "Thursday"
+          "6": "Friday"
+          "7": "Saturday"
+      - name: category
+        value_mapping:
+          "1": "accident with fatalities"
+          "2": "accident with serious injuries"
+          "3": "accident with minor injuries"
+      - name: type
+        value_mapping:
+          "1": "collision with a moving/stopping/stationary vehicle"
+          "2": "collision with a vehicle in front/waiting vehicle"
+          "3": "collision with vehicle traveling sideways in the same direction"
+          "4": "collision with oncoming vehicle"
+          "5": "collision with turning/crossing vehicle"
+          "6": "collision between vehicle and pedestrian"
+          "7": "impact with road obstacle"
+          "8": "departure from road to the right"
+          "9": "departure from road to the left"
+          "0": "other type of accident"
+      - name: type_1
+        value_mapping:
+          "1": "traffic accident"
+          "2": "turning accident"
+          "3": "turning in / crossing accident"
+          "4": "crossing accident"
+          "5": "accident involving stationary traffic"
+          "6": "accident in longitudinal traffic"
+          "7": "other accident"
+      - name: light_condition
+        value_mapping:
+          "0": "daylight"
+          "1": "twilight"
+          "2": "darkness"
+      - name: is_bike
+      - name: is_car
+      - name: is_by_foot
+      - name: is_motorcycle
+      - name: is_truck
+      - name: is_other
+      - name: street_condition
+      - { name: linref_x, remove: True }
+      - { name: linref_y, remove: True }
+      - { name: lon, type: float, format: coordinate }
+      - { name: lat, type: float, format: coordinate }
+  - 2019: &2019
+      - name: id
+      - name: federal_state
+      - { name: district_id, zfill: 2 }
+      - { name: planning_area_id_until_2020, zfill: 8 }
+      - { name: street, remove: True }
+      - name: year
+      - name: month
+      - name: hour
+      - name: weekday
+        value_mapping:
+          "1": "Sunday"
+          "2": "Monday"
+          "3": "Tuesday"
+          "4": "Wednesday"
+          "5": "Thursday"
+          "6": "Friday"
+          "7": "Saturday"
+      - name: category
+        value_mapping:
+          "1": "accident with fatalities"
+          "2": "accident with serious injuries"
+          "3": "accident with minor injuries"
+      - name: type
+        value_mapping:
+          "1": "collision with a moving/stopping/stationary vehicle"
+          "2": "collision with a vehicle in front/waiting vehicle"
+          "3": "collision with vehicle traveling sideways in the same direction"
+          "4": "collision with oncoming vehicle"
+          "5": "collision with turning/crossing vehicle"
+          "6": "collision between vehicle and pedestrian"
+          "7": "impact with road obstacle"
+          "8": "departure from road to the right"
+          "9": "departure from road to the left"
+          "0": "other type of accident"
+      - name: type_1
+        value_mapping:
+          "1": "traffic accident"
+          "2": "turning accident"
+          "3": "turning in / crossing accident"
+          "4": "crossing accident"
+          "5": "accident involving stationary traffic"
+          "6": "accident in longitudinal traffic"
+          "7": "other accident"
+      - name: light_condition
+        value_mapping:
+          "0": "daylight"
+          "1": "twilight"
+          "2": "darkness"
+      - name: is_bike
+      - name: is_car
+      - name: is_by_foot
+      - name: is_motorcycle
+      - name: is_truck
+      - name: is_other
+      - name: street_condition
+      - { name: linref_x, remove: True }
+      - { name: linref_y, remove: True }
+      - { name: lon, type: float, format: coordinate }
+      - { name: lat, type: float, format: coordinate }
+  - 2020: &2020
+      - name: id
+      - name: federal_state
+      - { name: district_id, zfill: 2 }
+      - { name: planning_area_id_until_2020, zfill: 8 }
+      - { name: planning_area_id_from_2021, zfill: 8 }
+      - name: year
+      - name: month
+      - name: hour
+      - name: weekday
+        value_mapping:
+          "1": "Sunday"
+          "2": "Monday"
+          "3": "Tuesday"
+          "4": "Wednesday"
+          "5": "Thursday"
+          "6": "Friday"
+          "7": "Saturday"
+      - name: category
+        value_mapping:
+          "1": "accident with fatalities"
+          "2": "accident with serious injuries"
+          "3": "accident with minor injuries"
+      - name: type
+        value_mapping:
+          "1": "collision with a moving/stopping/stationary vehicle"
+          "2": "collision with a vehicle in front/waiting vehicle"
+          "3": "collision with vehicle traveling sideways in the same direction"
+          "4": "collision with oncoming vehicle"
+          "5": "collision with turning/crossing vehicle"
+          "6": "collision between vehicle and pedestrian"
+          "7": "impact with road obstacle"
+          "8": "departure from road to the right"
+          "9": "departure from road to the left"
+          "0": "other type of accident"
+      - name: type_1
+        value_mapping:
+          "1": "traffic accident"
+          "2": "turning accident"
+          "3": "turning in / crossing accident"
+          "4": "crossing accident"
+          "5": "accident involving stationary traffic"
+          "6": "accident in longitudinal traffic"
+          "7": "other accident"
+      - name: light_condition
+        value_mapping:
+          "0": "daylight"
+          "1": "twilight"
+          "2": "darkness"
+      - name: is_bike
+      - name: is_car
+      - name: is_by_foot
+      - name: is_motorcycle
+      - name: is_truck
+      - name: is_other
+      - name: street_condition
+      - { name: linref_x, remove: True }
+      - { name: linref_y, remove: True }
+      - { name: lon, type: float, format: coordinate }
+      - { name: lat, type: float, format: coordinate }
+  - 2021: &2021
+      - name: id
+      - name: federal_state
+      - { name: district_id, zfill: 2 }
+      - { name: planning_area_id_from_2021, zfill: 8 }
+      - name: year
+      - name: month
+      - name: hour
+      - name: weekday
+        value_mapping:
+          "1": "Sunday"
+          "2": "Monday"
+          "3": "Tuesday"
+          "4": "Wednesday"
+          "5": "Thursday"
+          "6": "Friday"
+          "7": "Saturday"
+      - name: category
+        value_mapping:
+          "1": "accident with fatalities"
+          "2": "accident with serious injuries"
+          "3": "accident with minor injuries"
+      - name: type
+        value_mapping:
+          "1": "collision with a moving/stopping/stationary vehicle"
+          "2": "collision with a vehicle in front/waiting vehicle"
+          "3": "collision with vehicle traveling sideways in the same direction"
+          "4": "collision with oncoming vehicle"
+          "5": "collision with turning/crossing vehicle"
+          "6": "collision between vehicle and pedestrian"
+          "7": "impact with road obstacle"
+          "8": "departure from road to the right"
+          "9": "departure from road to the left"
+          "0": "other type of accident"
+      - name: type_1
+        value_mapping:
+          "1": "traffic accident"
+          "2": "turning accident"
+          "3": "turning in / crossing accident"
+          "4": "crossing accident"
+          "5": "accident involving stationary traffic"
+          "6": "accident in longitudinal traffic"
+          "7": "other accident"
+      - name: light_condition
+        value_mapping:
+          "0": "daylight"
+          "1": "twilight"
+          "2": "darkness"
+      - name: is_bike
+      - name: is_car
+      - name: is_by_foot
+      - name: is_motorcycle
+      - name: is_truck
+      - name: is_other
+      - name: street_condition
+      - { name: linref_x, remove: True }
+      - { name: linref_y, remove: True }
+      - { name: lon, type: float, format: coordinate }
+      - { name: lat, type: float, format: coordinate }
 input_ports:
+  - id: berlin-traffic-accidents-2018-00
+    files:
+      - source_file_name: AfSBBB_BE_LOR_Strasse_Strassenverkehrsunfaelle_2018_Datensatz.csv
+        target_file_name: berlin-traffic-accidents-2018-00.csv
+        datasets:
+          - { target_file_name: berlin-traffic-accidents-2018-00-details.csv, names: *2018, skip_rows: 1 }
+  - id: berlin-traffic-accidents-2019-00
+    files:
+      - source_file_name: AfSBBB_BE_LOR_Strasse_Strassenverkehrsunfaelle_2019_Datensatz.csv
+        target_file_name: berlin-traffic-accidents-2019-00.csv
+        datasets:
+          - { target_file_name: berlin-traffic-accidents-2019-00-details.csv, names: *2019, skip_rows: 1 }
+  - id: berlin-traffic-accidents-2020-00
+    files:
+      - source_file_name: AfSBBB_BE_LOR_Strasse_Strassenverkehrsunfaelle_2020_Datensatz.csv
+        target_file_name: berlin-traffic-accidents-2020-00.csv
+        datasets:
+          - { target_file_name: berlin-traffic-accidents-2020-00-details.csv, names: *2020, skip_rows: 1 }
+  - id: berlin-traffic-accidents-2021-00
+    files:
+      - source_file_name: AfSBBB_BE_LOR_Strasse_Strassenverkehrsunfaelle_2021_Datensatz.csv
+        target_file_name: berlin-traffic-accidents-2021-00.csv
+        datasets:
+          - { target_file_name: berlin-traffic-accidents-2021-00-details.csv, names: *2021, skip_rows: 1 }

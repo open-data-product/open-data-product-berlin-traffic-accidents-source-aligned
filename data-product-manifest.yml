@@ -57,6 +57,12 @@ transformation_steps:
   - name: Data extractor
     path: https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/extract/data_extractor.py
     description: extracts data from inout ports
+  - name: Data copier
+    path: https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/transform/data_copier.py
+    description: copies and renames extracted data
+  - name: Data CSV converter
+    path: https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/transform/data_csv_converter.py
+    description: converts Excel files to CSV format
 output_ports: []
 observability:
   quality:
