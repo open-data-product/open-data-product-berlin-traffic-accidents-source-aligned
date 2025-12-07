@@ -49,6 +49,10 @@ def main(clean, quiet):
     data_transformation_silver = load_data_transformation_silver(
         config_path=script_path
     )
+    data_transformation_gold_geo = load_data_transformation_gold(
+        config_path=script_path,
+        file_name="data-transformation-03-gold-geo.yml",
+    )
     data_transformation_gold = load_data_transformation_gold(config_path=script_path)
     odps = load_odps(config_path=script_path)
     dpds = load_dpds(config_path=script_path)
@@ -89,6 +93,15 @@ def main(clean, quiet):
     #
     # Gold: Aggregate
     #
+
+    aggregate_data(
+        data_transformation=data_transformation_gold_geo,
+        geojson_path=bronze_path,
+        source_path=silver_path,
+        results_path=gold_path,
+        clean=clean,
+        quiet=quiet,
+    )
 
     aggregate_data(
         data_transformation=data_transformation_gold,

@@ -6,9 +6,11 @@ metadata:
   description:
   url: https://github.com/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned
   license: CC-BY 4.0
-  updated: 2025-11-09
+  updated: 2025-11-10
   schema:
 input_ports:
+  - id: berlin-lor-geodata
+    manifest_url: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/refs/heads/main/data-product-manifest.yml
   - id: berlin-traffic-accidents-2018-00
     metadata:
       name: Strassenverkehrsunfälle nach Unfallort in Berlin 2018
@@ -63,7 +65,95 @@ transformation_steps:
   - name: Data CSV converter
     path: https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/transform/data_csv_converter.py
     description: converts Excel files to CSV format
-output_ports: []
+output_ports:
+  - id: berlin-traffic-accidents-2018-00-csv
+    metadata:
+      name: Berlin Traffic Accidents 2018 00 Csv
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2018-00-csv
+      license: CC-BY 4.0
+      updated: 2025-11-10
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/main/data/03-gold/berlin-traffic-accidents-2018-00-csv/berlin-traffic-accidents-2018-00-details.csv
+  - id: berlin-traffic-accidents-2018-00-parquet
+    metadata:
+      name: Berlin Traffic Accidents 2018 00 Parquet
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2018-00-parquet
+      license: CC-BY 4.0
+      updated: 2025-11-10
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/main/data/03-gold/berlin-traffic-accidents-2018-00-parquet/berlin-traffic-accidents-2018-00-details.parquet
+  - id: berlin-traffic-accidents-2019-00-csv
+    metadata:
+      name: Berlin Traffic Accidents 2019 00 Csv
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2019-00-csv
+      license: CC-BY 4.0
+      updated: 2025-11-10
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/main/data/03-gold/berlin-traffic-accidents-2019-00-csv/berlin-traffic-accidents-2019-00-details.csv
+  - id: berlin-traffic-accidents-2019-00-parquet
+    metadata:
+      name: Berlin Traffic Accidents 2019 00 Parquet
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2019-00-parquet
+      license: CC-BY 4.0
+      updated: 2025-11-10
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/main/data/03-gold/berlin-traffic-accidents-2019-00-parquet/berlin-traffic-accidents-2019-00-details.parquet
+  - id: berlin-traffic-accidents-2020-00-csv
+    metadata:
+      name: Berlin Traffic Accidents 2020 00 Csv
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2020-00-csv
+      license: CC-BY 4.0
+      updated: 2025-11-10
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/main/data/03-gold/berlin-traffic-accidents-2020-00-csv/berlin-traffic-accidents-2020-00-details.csv
+  - id: berlin-traffic-accidents-2020-00-parquet
+    metadata:
+      name: Berlin Traffic Accidents 2020 00 Parquet
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2020-00-parquet
+      license: CC-BY 4.0
+      updated: 2025-11-10
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/main/data/03-gold/berlin-traffic-accidents-2020-00-parquet/berlin-traffic-accidents-2020-00-details.parquet
+  - id: berlin-traffic-accidents-2021-00-csv
+    metadata:
+      name: Berlin Traffic Accidents 2021 00 Csv
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2021-00-csv
+      license: CC-BY 4.0
+      updated: 2025-11-10
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/main/data/03-gold/berlin-traffic-accidents-2021-00-csv/berlin-traffic-accidents-2021-00-details.csv
+  - id: berlin-traffic-accidents-2021-00-parquet
+    metadata:
+      name: Berlin Traffic Accidents 2021 00 Parquet
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2021-00-parquet
+      license: CC-BY 4.0
+      updated: 2025-11-10
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/main/data/03-gold/berlin-traffic-accidents-2021-00-parquet/berlin-traffic-accidents-2021-00-details.parquet
 observability:
   quality:
   operational:

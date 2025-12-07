@@ -6,9 +6,13 @@
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned
 * license: CC-BY 4.0
-* updated: 2025-11-09
+* updated: 2025-11-10
 
 ## Input Ports
+
+### berlin-lor-geodata
+
+* manifest URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/refs/heads/main/data-product-manifest.yml
 
 ### berlin-traffic-accidents-2018-00
 name: Strassenverkehrsunfälle nach Unfallort in Berlin 2018
@@ -63,6 +67,104 @@ name: Strassenverkehrsunfälle nach Unfallort in Berlin 2021
 * [Data extractor](https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/extract/data_extractor.py) extracts data from inout ports
 * [Data copier](https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/transform/data_copier.py) copies and renames extracted data
 * [Data CSV converter](https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/transform/data_csv_converter.py) converts Excel files to CSV format
+
+## Output Ports
+
+### berlin-traffic-accidents-2018-00-csv
+name: Berlin Traffic Accidents 2018 00 Csv
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2018-00-csv
+* license: CC-BY 4.0
+* updated: 2025-11-10
+
+**Files**
+
+* [berlin-traffic-accidents-2018-00-details.csv](https://raw.githubusercontent.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/main/data/03-gold/berlin-traffic-accidents-2018-00-csv/berlin-traffic-accidents-2018-00-details.csv)
+
+
+### berlin-traffic-accidents-2018-00-parquet
+name: Berlin Traffic Accidents 2018 00 Parquet
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2018-00-parquet
+* license: CC-BY 4.0
+* updated: 2025-11-10
+
+**Files**
+
+* [berlin-traffic-accidents-2018-00-details.parquet](https://raw.githubusercontent.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/main/data/03-gold/berlin-traffic-accidents-2018-00-parquet/berlin-traffic-accidents-2018-00-details.parquet)
+
+
+### berlin-traffic-accidents-2019-00-csv
+name: Berlin Traffic Accidents 2019 00 Csv
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2019-00-csv
+* license: CC-BY 4.0
+* updated: 2025-11-10
+
+**Files**
+
+* [berlin-traffic-accidents-2019-00-details.csv](https://raw.githubusercontent.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/main/data/03-gold/berlin-traffic-accidents-2019-00-csv/berlin-traffic-accidents-2019-00-details.csv)
+
+
+### berlin-traffic-accidents-2019-00-parquet
+name: Berlin Traffic Accidents 2019 00 Parquet
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2019-00-parquet
+* license: CC-BY 4.0
+* updated: 2025-11-10
+
+**Files**
+
+* [berlin-traffic-accidents-2019-00-details.parquet](https://raw.githubusercontent.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/main/data/03-gold/berlin-traffic-accidents-2019-00-parquet/berlin-traffic-accidents-2019-00-details.parquet)
+
+
+### berlin-traffic-accidents-2020-00-csv
+name: Berlin Traffic Accidents 2020 00 Csv
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2020-00-csv
+* license: CC-BY 4.0
+* updated: 2025-11-10
+
+**Files**
+
+* [berlin-traffic-accidents-2020-00-details.csv](https://raw.githubusercontent.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/main/data/03-gold/berlin-traffic-accidents-2020-00-csv/berlin-traffic-accidents-2020-00-details.csv)
+
+
+### berlin-traffic-accidents-2020-00-parquet
+name: Berlin Traffic Accidents 2020 00 Parquet
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2020-00-parquet
+* license: CC-BY 4.0
+* updated: 2025-11-10
+
+**Files**
+
+* [berlin-traffic-accidents-2020-00-details.parquet](https://raw.githubusercontent.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/main/data/03-gold/berlin-traffic-accidents-2020-00-parquet/berlin-traffic-accidents-2020-00-details.parquet)
+
+
+### berlin-traffic-accidents-2021-00-csv
+name: Berlin Traffic Accidents 2021 00 Csv
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2021-00-csv
+* license: CC-BY 4.0
+* updated: 2025-11-10
+
+**Files**
+
+* [berlin-traffic-accidents-2021-00-details.csv](https://raw.githubusercontent.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/main/data/03-gold/berlin-traffic-accidents-2021-00-csv/berlin-traffic-accidents-2021-00-details.csv)
+
+
+### berlin-traffic-accidents-2021-00-parquet
+name: Berlin Traffic Accidents 2021 00 Parquet
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2021-00-parquet
+* license: CC-BY 4.0
+* updated: 2025-11-10
+
+**Files**
+
+* [berlin-traffic-accidents-2021-00-details.parquet](https://raw.githubusercontent.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/main/data/03-gold/berlin-traffic-accidents-2021-00-parquet/berlin-traffic-accidents-2021-00-details.parquet)
+
 
 ## Classification
 

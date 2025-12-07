@@ -19,6 +19,8 @@
 ## Interface Components
 
 ### Input Ports
+#### berlin-lor-geodata
+* fully qualified name: berlin-lor-geodata
 #### berlin-traffic-accidents-2018-00
 * fully qualified name: berlin-traffic-accidents-2018-00
 #### berlin-traffic-accidents-2019-00
@@ -27,6 +29,24 @@
 * fully qualified name: berlin-traffic-accidents-2020-00
 #### berlin-traffic-accidents-2021-00
 * fully qualified name: berlin-traffic-accidents-2021-00
+
+### Output Ports
+#### berlin-traffic-accidents-2018-00-csv
+* fully qualified name: berlin-traffic-accidents-2018-00-csv
+#### berlin-traffic-accidents-2018-00-parquet
+* fully qualified name: berlin-traffic-accidents-2018-00-parquet
+#### berlin-traffic-accidents-2019-00-csv
+* fully qualified name: berlin-traffic-accidents-2019-00-csv
+#### berlin-traffic-accidents-2019-00-parquet
+* fully qualified name: berlin-traffic-accidents-2019-00-parquet
+#### berlin-traffic-accidents-2020-00-csv
+* fully qualified name: berlin-traffic-accidents-2020-00-csv
+#### berlin-traffic-accidents-2020-00-parquet
+* fully qualified name: berlin-traffic-accidents-2020-00-parquet
+#### berlin-traffic-accidents-2021-00-csv
+* fully qualified name: berlin-traffic-accidents-2021-00-csv
+#### berlin-traffic-accidents-2021-00-parquet
+* fully qualified name: berlin-traffic-accidents-2021-00-parquet
 
 
 ---

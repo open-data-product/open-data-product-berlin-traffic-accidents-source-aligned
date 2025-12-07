@@ -1,0 +1,47 @@
+---
+attribute_groups:
+  - details: &details
+      - name: id
+      - name: year
+      - name: month
+      - name: hour
+      - name: weekday
+      - name: category
+      - name: type
+      - name: type_1
+      - name: light_condition
+      - name: is_bike
+      - name: is_car
+      - name: is_by_foot
+      - name: is_motorcycle
+      - name: is_truck
+      - name: is_other
+      - name: street_condition
+      - name: lon
+      - name: lat
+      - { name: geojson_feature_id, geojson_lookup: [lat, lon] }
+input_ports:
+  - id: berlin-traffic-accidents-2018-00
+    files:
+      - geojson_template_file_name: berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson
+        source_file_name: berlin-traffic-accidents-2018-00-details.csv
+        target_file_name: berlin-traffic-accidents-2018-00-details.csv
+        names: *details
+  - id: berlin-traffic-accidents-2019-00
+    files:
+      - geojson_template_file_name: berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson
+        source_file_name: berlin-traffic-accidents-2019-00-details.csv
+        target_file_name: berlin-traffic-accidents-2019-00-details.csv
+        names: *details
+  - id: berlin-traffic-accidents-2020-00
+    files:
+      - geojson_template_file_name: berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson
+        source_file_name: berlin-traffic-accidents-2020-00-details.csv
+        target_file_name: berlin-traffic-accidents-2020-00-details.csv
+        names: *details
+  - id: berlin-traffic-accidents-2021-00
+    files:
+      - geojson_template_file_name: berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson
+        source_file_name: berlin-traffic-accidents-2021-00-details.csv
+        target_file_name: berlin-traffic-accidents-2021-00-details.csv
+        names: *details
