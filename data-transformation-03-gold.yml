@@ -1,3 +1,158 @@
 ---
 attribute_groups:
+  - city: &city
+      - { name: total, value: 1 }
+      - name: is_bike
+      - name: is_car
+      - name: is_by_foot
+      - name: is_motorcycle
+      - name: is_truck
+      - name: is_other
+  - district: &district
+      - { name: total, value: 1 }
+      - name: is_bike
+      - name: is_car
+      - name: is_by_foot
+      - name: is_motorcycle
+      - name: is_truck
+      - name: is_other
+      - { name: district_id, split: { name: "geojson_feature_id", first_n: 2 }, rename: id, zfill: 2 }
+  - forecast-area: &forecast-area
+      - { name: total, value: 1 }
+      - name: is_bike
+      - name: is_car
+      - name: is_by_foot
+      - name: is_motorcycle
+      - name: is_truck
+      - name: is_other
+      - { name: forecast_area_id, split: { name: "geojson_feature_id", first_n: 4 }, rename: id, zfill: 4 }
+  - district-region: &district-region
+      - { name: total, value: 1 }
+      - name: is_bike
+      - name: is_car
+      - name: is_by_foot
+      - name: is_motorcycle
+      - name: is_truck
+      - name: is_other
+      - { name: district_region_id, split: { name: "geojson_feature_id", first_n: 6 }, rename: id, zfill: 6 }
+  - planning-area: &planning-area
+      - { name: total, value: 1 }
+      - name: is_bike
+      - name: is_car
+      - name: is_by_foot
+      - name: is_motorcycle
+      - name: is_truck
+      - name: is_other
+      - { name: planning_area_id, split: { name: "geojson_feature_id", first_n: 8 }, rename: id, zfill: 8 }
+filters:
+  - outside-points: &outside-points
+     - { key: geojson_feature_id, operation: "does_not_equal", value: "0" }
 input_ports:
+  - id: berlin-traffic-accidents-2018-00-csv
+    files:
+      - source_file_name: berlin-traffic-accidents-2018-00-details.csv
+        target_file_name: berlin-traffic-accidents-2018-00-city.csv
+        aggregate_by: "total"
+        names: *city
+        filters: *outside-points
+      - source_file_name: berlin-traffic-accidents-2018-00-details.csv
+        target_file_name: berlin-traffic-accidents-2018-00-districts.csv
+        aggregate_by: district_id
+        names: *district
+        filters: *outside-points
+      - source_file_name: berlin-traffic-accidents-2018-00-details.csv
+        target_file_name: berlin-traffic-accidents-2018-00-forecast-areas.csv
+        aggregate_by: forecast_area_id
+        names: *forecast-area
+        filters: *outside-points
+      - source_file_name: berlin-traffic-accidents-2018-00-details.csv
+        target_file_name: berlin-traffic-accidents-2018-00-district-regions.csv
+        aggregate_by: district_region_id
+        names: *district-region
+        filters: *outside-points
+      - source_file_name: berlin-traffic-accidents-2018-00-details.csv
+        target_file_name: berlin-traffic-accidents-2018-00-planning-areas.csv
+        aggregate_by: planning_area_id
+        names: *planning-area
+        filters: *outside-points
+  - id: berlin-traffic-accidents-2019-00-csv
+    files:
+      - source_file_name: berlin-traffic-accidents-2019-00-details.csv
+        target_file_name: berlin-traffic-accidents-2019-00-city.csv
+        aggregate_by: "total"
+        names: *city
+        filters: *outside-points
+      - source_file_name: berlin-traffic-accidents-2019-00-details.csv
+        target_file_name: berlin-traffic-accidents-2019-00-districts.csv
+        aggregate_by: district_id
+        names: *district
+        filters: *outside-points
+      - source_file_name: berlin-traffic-accidents-2019-00-details.csv
+        target_file_name: berlin-traffic-accidents-2019-00-forecast-areas.csv
+        aggregate_by: forecast_area_id
+        names: *forecast-area
+        filters: *outside-points
+      - source_file_name: berlin-traffic-accidents-2019-00-details.csv
+        target_file_name: berlin-traffic-accidents-2019-00-district-regions.csv
+        aggregate_by: district_region_id
+        names: *district-region
+        filters: *outside-points
+      - source_file_name: berlin-traffic-accidents-2019-00-details.csv
+        target_file_name: berlin-traffic-accidents-2019-00-planning-areas.csv
+        aggregate_by: planning_area_id
+        names: *planning-area
+        filters: *outside-points
+  - id: berlin-traffic-accidents-2020-00-csv
+    files:
+      - source_file_name: berlin-traffic-accidents-2020-00-details.csv
+        target_file_name: berlin-traffic-accidents-2020-00-city.csv
+        aggregate_by: "total"
+        names: *city
+        filters: *outside-points
+      - source_file_name: berlin-traffic-accidents-2020-00-details.csv
+        target_file_name: berlin-traffic-accidents-2020-00-districts.csv
+        aggregate_by: district_id
+        names: *district
+        filters: *outside-points
+      - source_file_name: berlin-traffic-accidents-2020-00-details.csv
+        target_file_name: berlin-traffic-accidents-2020-00-forecast-areas.csv
+        aggregate_by: forecast_area_id
+        names: *forecast-area
+        filters: *outside-points
+      - source_file_name: berlin-traffic-accidents-2020-00-details.csv
+        target_file_name: berlin-traffic-accidents-2020-00-district-regions.csv
+        aggregate_by: district_region_id
+        names: *district-region
+        filters: *outside-points
+      - source_file_name: berlin-traffic-accidents-2020-00-details.csv
+        target_file_name: berlin-traffic-accidents-2020-00-planning-areas.csv
+        aggregate_by: planning_area_id
+        names: *planning-area
+        filters: *outside-points
+  - id: berlin-traffic-accidents-2021-00-csv
+    files:
+      - source_file_name: berlin-traffic-accidents-2021-00-details.csv
+        target_file_name: berlin-traffic-accidents-2021-00-city.csv
+        aggregate_by: "total"
+        names: *city
+        filters: *outside-points
+      - source_file_name: berlin-traffic-accidents-2021-00-details.csv
+        target_file_name: berlin-traffic-accidents-2021-00-districts.csv
+        aggregate_by: district_id
+        names: *district
+        filters: *outside-points
+      - source_file_name: berlin-traffic-accidents-2021-00-details.csv
+        target_file_name: berlin-traffic-accidents-2021-00-forecast-areas.csv
+        aggregate_by: forecast_area_id
+        names: *forecast-area
+        filters: *outside-points
+      - source_file_name: berlin-traffic-accidents-2021-00-details.csv
+        target_file_name: berlin-traffic-accidents-2021-00-district-regions.csv
+        aggregate_by: district_region_id
+        names: *district-region
+        filters: *outside-points
+      - source_file_name: berlin-traffic-accidents-2021-00-details.csv
+        target_file_name: berlin-traffic-accidents-2021-00-planning-areas.csv
+        aggregate_by: planning_area_id
+        names: *planning-area
+        filters: *outside-points

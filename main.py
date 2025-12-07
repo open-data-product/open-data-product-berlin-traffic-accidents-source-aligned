@@ -105,7 +105,7 @@ def main(clean, quiet):
 
     aggregate_data(
         data_transformation=data_transformation_gold,
-        source_path=silver_path,
+        source_path=gold_path,
         results_path=gold_path,
         clean=clean,
         quiet=quiet,
