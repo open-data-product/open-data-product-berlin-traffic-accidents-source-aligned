@@ -6,11 +6,58 @@ metadata:
   description:
   url: https://github.com/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned
   license: CC-BY 4.0
-  updated:
+  updated: 2025-11-09
   schema:
 input_ports:
+  - id: berlin-traffic-accidents-2018-00
+    metadata:
+      name: Strassenverkehrsunfälle nach Unfallort in Berlin 2018
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://daten.berlin.de/datensaetze/strassenverkehrsunfalle-nach-unfallort-in-berlin-2018
+      license: CC-BY-3.0-Namensnennung
+      updated: 2021-08-13
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/102d8fde949519f6/d99e618a1ec6/AfSBBB_BE_LOR_Strasse_Strassenverkehrsunfaelle_2018_Datensatz.csv
+  - id: berlin-traffic-accidents-2019-00
+    metadata:
+      name: Strassenverkehrsunfälle nach Unfallort in Berlin 2019
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://daten.berlin.de/datensaetze/strassenverkehrsunfalle-nach-unfallort-in-berlin-2019
+      license: CC-BY-3.0-Namensnennung
+      updated: 2020-11-10
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/8b666106e2a7b528/7c0c3db5ab9c/AfSBBB_BE_LOR_Strasse_Strassenverkehrsunfaelle_2019_Datensatz.csv
+  - id: berlin-traffic-accidents-2020-00
+    metadata:
+      name: Strassenverkehrsunfälle nach Unfallort in Berlin 2020
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://daten.berlin.de/datensaetze/strassenverkehrsunfalle-nach-unfallort-in-berlin-2020
+      license: CC-BY-3.0-Namensnennung
+      updated: 2021-08-13
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/8a7423663f039221/892d24383b99/AfSBBB_BE_LOR_Strasse_Strassenverkehrsunfaelle_2020_Datensatz.csv
+  - id: berlin-traffic-accidents-2021-00
+    metadata:
+      name: Strassenverkehrsunfälle nach Unfallort in Berlin 2021
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://daten.berlin.de/datensaetze/strassenverkehrsunfalle-nach-unfallort-in-berlin-2021
+      license: CC-BY-3.0-Namensnennung
+      updated: 2020-11-10
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/c2b6d25afa19b607/8d9164595b8b/AfSBBB_BE_LOR_Strasse_Strassenverkehrsunfaelle_2021_Datensatz.csv
 transformation_steps:
-output_ports:
+  - name: Data extractor
+    path: https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/extract/data_extractor.py
+    description: extracts data from inout ports
+output_ports: []
 observability:
   quality:
   operational:

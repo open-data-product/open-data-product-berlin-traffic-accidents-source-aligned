@@ -80,7 +80,9 @@ def main(clean, quiet):
         data_transformation=data_transformation_silver,
         source_path=silver_path,
         results_path=silver_path,
-        clean=clean,
+        encoding="iso-8859-1",
+        delimiter=";",
+        clean=True,
         quiet=quiet,
     )
 
