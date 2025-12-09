@@ -6,15 +6,15 @@
 ## Info
 
 * ID: berlin-traffic-accidents-source-aligned
-* fully qualified name: urn:dpds:openlifeworlds:dataproducts:berlin-traffic-accidents-source-aligned:1.0
+* fully qualified name: urn:dpds:opendataproduct:dataproducts:berlin-traffic-accidents-source-aligned:1.0
 * name: Berlin Traffic Accidents source-aligned
 * version: 1.0
 * display name: Berlin Traffic Accidents source-aligned
 * domain: domain
 ### Owner
 
-* id: Open Lifeworlds
-* name: Open Lifeworlds
+* id: Open Data Product
+* name: Open Data Product
 
 ## Interface Components
 

@@ -73,137 +73,137 @@ name: Strassenverkehrsunfälle nach Unfallort in Berlin 2021
 ### berlin-traffic-accidents-2018-00-csv
 name: Berlin Traffic Accidents 2018 00 Csv
 * owner: Open Data Product
-* url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2018-00-csv
+* url: https://github.com/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2018-00-csv
 * license: CC-BY 4.0
 * updated: 2025-11-11
 
 **Files**
 
-* [berlin-traffic-accidents-2018-00-city.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-csv/berlin-traffic-accidents-2018-00-city.csv)
-* [berlin-traffic-accidents-2018-00-details.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-csv/berlin-traffic-accidents-2018-00-details.csv)
-* [berlin-traffic-accidents-2018-00-district-regions.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-csv/berlin-traffic-accidents-2018-00-district-regions.csv)
-* [berlin-traffic-accidents-2018-00-districts.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-csv/berlin-traffic-accidents-2018-00-districts.csv)
-* [berlin-traffic-accidents-2018-00-forecast-areas.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-csv/berlin-traffic-accidents-2018-00-forecast-areas.csv)
-* [berlin-traffic-accidents-2018-00-planning-areas.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-csv/berlin-traffic-accidents-2018-00-planning-areas.csv)
+* [berlin-traffic-accidents-2018-00-city.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-csv/berlin-traffic-accidents-2018-00-city.csv)
+* [berlin-traffic-accidents-2018-00-details.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-csv/berlin-traffic-accidents-2018-00-details.csv)
+* [berlin-traffic-accidents-2018-00-district-regions.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-csv/berlin-traffic-accidents-2018-00-district-regions.csv)
+* [berlin-traffic-accidents-2018-00-districts.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-csv/berlin-traffic-accidents-2018-00-districts.csv)
+* [berlin-traffic-accidents-2018-00-forecast-areas.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-csv/berlin-traffic-accidents-2018-00-forecast-areas.csv)
+* [berlin-traffic-accidents-2018-00-planning-areas.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-csv/berlin-traffic-accidents-2018-00-planning-areas.csv)
 
 
 ### berlin-traffic-accidents-2018-00-parquet
 name: Berlin Traffic Accidents 2018 00 Parquet
 * owner: Open Data Product
-* url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2018-00-parquet
+* url: https://github.com/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2018-00-parquet
 * license: CC-BY 4.0
 * updated: 2025-11-11
 
 **Files**
 
-* [berlin-traffic-accidents-2018-00-city.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-parquet/berlin-traffic-accidents-2018-00-city.parquet)
-* [berlin-traffic-accidents-2018-00-details.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-parquet/berlin-traffic-accidents-2018-00-details.parquet)
-* [berlin-traffic-accidents-2018-00-district-regions.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-parquet/berlin-traffic-accidents-2018-00-district-regions.parquet)
-* [berlin-traffic-accidents-2018-00-districts.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-parquet/berlin-traffic-accidents-2018-00-districts.parquet)
-* [berlin-traffic-accidents-2018-00-forecast-areas.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-parquet/berlin-traffic-accidents-2018-00-forecast-areas.parquet)
-* [berlin-traffic-accidents-2018-00-planning-areas.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-parquet/berlin-traffic-accidents-2018-00-planning-areas.parquet)
+* [berlin-traffic-accidents-2018-00-city.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-parquet/berlin-traffic-accidents-2018-00-city.parquet)
+* [berlin-traffic-accidents-2018-00-details.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-parquet/berlin-traffic-accidents-2018-00-details.parquet)
+* [berlin-traffic-accidents-2018-00-district-regions.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-parquet/berlin-traffic-accidents-2018-00-district-regions.parquet)
+* [berlin-traffic-accidents-2018-00-districts.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-parquet/berlin-traffic-accidents-2018-00-districts.parquet)
+* [berlin-traffic-accidents-2018-00-forecast-areas.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-parquet/berlin-traffic-accidents-2018-00-forecast-areas.parquet)
+* [berlin-traffic-accidents-2018-00-planning-areas.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2018-00-parquet/berlin-traffic-accidents-2018-00-planning-areas.parquet)
 
 
 ### berlin-traffic-accidents-2019-00-csv
 name: Berlin Traffic Accidents 2019 00 Csv
 * owner: Open Data Product
-* url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2019-00-csv
+* url: https://github.com/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2019-00-csv
 * license: CC-BY 4.0
 * updated: 2025-11-11
 
 **Files**
 
-* [berlin-traffic-accidents-2019-00-city.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-csv/berlin-traffic-accidents-2019-00-city.csv)
-* [berlin-traffic-accidents-2019-00-details.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-csv/berlin-traffic-accidents-2019-00-details.csv)
-* [berlin-traffic-accidents-2019-00-district-regions.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-csv/berlin-traffic-accidents-2019-00-district-regions.csv)
-* [berlin-traffic-accidents-2019-00-districts.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-csv/berlin-traffic-accidents-2019-00-districts.csv)
-* [berlin-traffic-accidents-2019-00-forecast-areas.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-csv/berlin-traffic-accidents-2019-00-forecast-areas.csv)
-* [berlin-traffic-accidents-2019-00-planning-areas.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-csv/berlin-traffic-accidents-2019-00-planning-areas.csv)
+* [berlin-traffic-accidents-2019-00-city.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-csv/berlin-traffic-accidents-2019-00-city.csv)
+* [berlin-traffic-accidents-2019-00-details.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-csv/berlin-traffic-accidents-2019-00-details.csv)
+* [berlin-traffic-accidents-2019-00-district-regions.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-csv/berlin-traffic-accidents-2019-00-district-regions.csv)
+* [berlin-traffic-accidents-2019-00-districts.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-csv/berlin-traffic-accidents-2019-00-districts.csv)
+* [berlin-traffic-accidents-2019-00-forecast-areas.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-csv/berlin-traffic-accidents-2019-00-forecast-areas.csv)
+* [berlin-traffic-accidents-2019-00-planning-areas.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-csv/berlin-traffic-accidents-2019-00-planning-areas.csv)
 
 
 ### berlin-traffic-accidents-2019-00-parquet
 name: Berlin Traffic Accidents 2019 00 Parquet
 * owner: Open Data Product
-* url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2019-00-parquet
+* url: https://github.com/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2019-00-parquet
 * license: CC-BY 4.0
 * updated: 2025-11-11
 
 **Files**
 
-* [berlin-traffic-accidents-2019-00-city.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-parquet/berlin-traffic-accidents-2019-00-city.parquet)
-* [berlin-traffic-accidents-2019-00-details.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-parquet/berlin-traffic-accidents-2019-00-details.parquet)
-* [berlin-traffic-accidents-2019-00-district-regions.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-parquet/berlin-traffic-accidents-2019-00-district-regions.parquet)
-* [berlin-traffic-accidents-2019-00-districts.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-parquet/berlin-traffic-accidents-2019-00-districts.parquet)
-* [berlin-traffic-accidents-2019-00-forecast-areas.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-parquet/berlin-traffic-accidents-2019-00-forecast-areas.parquet)
-* [berlin-traffic-accidents-2019-00-planning-areas.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-parquet/berlin-traffic-accidents-2019-00-planning-areas.parquet)
+* [berlin-traffic-accidents-2019-00-city.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-parquet/berlin-traffic-accidents-2019-00-city.parquet)
+* [berlin-traffic-accidents-2019-00-details.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-parquet/berlin-traffic-accidents-2019-00-details.parquet)
+* [berlin-traffic-accidents-2019-00-district-regions.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-parquet/berlin-traffic-accidents-2019-00-district-regions.parquet)
+* [berlin-traffic-accidents-2019-00-districts.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-parquet/berlin-traffic-accidents-2019-00-districts.parquet)
+* [berlin-traffic-accidents-2019-00-forecast-areas.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-parquet/berlin-traffic-accidents-2019-00-forecast-areas.parquet)
+* [berlin-traffic-accidents-2019-00-planning-areas.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2019-00-parquet/berlin-traffic-accidents-2019-00-planning-areas.parquet)
 
 
 ### berlin-traffic-accidents-2020-00-csv
 name: Berlin Traffic Accidents 2020 00 Csv
 * owner: Open Data Product
-* url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2020-00-csv
+* url: https://github.com/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2020-00-csv
 * license: CC-BY 4.0
 * updated: 2025-11-11
 
 **Files**
 
-* [berlin-traffic-accidents-2020-00-city.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-csv/berlin-traffic-accidents-2020-00-city.csv)
-* [berlin-traffic-accidents-2020-00-details.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-csv/berlin-traffic-accidents-2020-00-details.csv)
-* [berlin-traffic-accidents-2020-00-district-regions.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-csv/berlin-traffic-accidents-2020-00-district-regions.csv)
-* [berlin-traffic-accidents-2020-00-districts.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-csv/berlin-traffic-accidents-2020-00-districts.csv)
-* [berlin-traffic-accidents-2020-00-forecast-areas.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-csv/berlin-traffic-accidents-2020-00-forecast-areas.csv)
-* [berlin-traffic-accidents-2020-00-planning-areas.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-csv/berlin-traffic-accidents-2020-00-planning-areas.csv)
+* [berlin-traffic-accidents-2020-00-city.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-csv/berlin-traffic-accidents-2020-00-city.csv)
+* [berlin-traffic-accidents-2020-00-details.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-csv/berlin-traffic-accidents-2020-00-details.csv)
+* [berlin-traffic-accidents-2020-00-district-regions.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-csv/berlin-traffic-accidents-2020-00-district-regions.csv)
+* [berlin-traffic-accidents-2020-00-districts.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-csv/berlin-traffic-accidents-2020-00-districts.csv)
+* [berlin-traffic-accidents-2020-00-forecast-areas.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-csv/berlin-traffic-accidents-2020-00-forecast-areas.csv)
+* [berlin-traffic-accidents-2020-00-planning-areas.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-csv/berlin-traffic-accidents-2020-00-planning-areas.csv)
 
 
 ### berlin-traffic-accidents-2020-00-parquet
 name: Berlin Traffic Accidents 2020 00 Parquet
 * owner: Open Data Product
-* url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2020-00-parquet
+* url: https://github.com/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2020-00-parquet
 * license: CC-BY 4.0
 * updated: 2025-11-11
 
 **Files**
 
-* [berlin-traffic-accidents-2020-00-city.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-parquet/berlin-traffic-accidents-2020-00-city.parquet)
-* [berlin-traffic-accidents-2020-00-details.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-parquet/berlin-traffic-accidents-2020-00-details.parquet)
-* [berlin-traffic-accidents-2020-00-district-regions.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-parquet/berlin-traffic-accidents-2020-00-district-regions.parquet)
-* [berlin-traffic-accidents-2020-00-districts.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-parquet/berlin-traffic-accidents-2020-00-districts.parquet)
-* [berlin-traffic-accidents-2020-00-forecast-areas.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-parquet/berlin-traffic-accidents-2020-00-forecast-areas.parquet)
-* [berlin-traffic-accidents-2020-00-planning-areas.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-parquet/berlin-traffic-accidents-2020-00-planning-areas.parquet)
+* [berlin-traffic-accidents-2020-00-city.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-parquet/berlin-traffic-accidents-2020-00-city.parquet)
+* [berlin-traffic-accidents-2020-00-details.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-parquet/berlin-traffic-accidents-2020-00-details.parquet)
+* [berlin-traffic-accidents-2020-00-district-regions.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-parquet/berlin-traffic-accidents-2020-00-district-regions.parquet)
+* [berlin-traffic-accidents-2020-00-districts.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-parquet/berlin-traffic-accidents-2020-00-districts.parquet)
+* [berlin-traffic-accidents-2020-00-forecast-areas.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-parquet/berlin-traffic-accidents-2020-00-forecast-areas.parquet)
+* [berlin-traffic-accidents-2020-00-planning-areas.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2020-00-parquet/berlin-traffic-accidents-2020-00-planning-areas.parquet)
 
 
 ### berlin-traffic-accidents-2021-00-csv
 name: Berlin Traffic Accidents 2021 00 Csv
 * owner: Open Data Product
-* url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2021-00-csv
+* url: https://github.com/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2021-00-csv
 * license: CC-BY 4.0
 * updated: 2025-11-11
 
 **Files**
 
-* [berlin-traffic-accidents-2021-00-city.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-csv/berlin-traffic-accidents-2021-00-city.csv)
-* [berlin-traffic-accidents-2021-00-details.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-csv/berlin-traffic-accidents-2021-00-details.csv)
-* [berlin-traffic-accidents-2021-00-district-regions.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-csv/berlin-traffic-accidents-2021-00-district-regions.csv)
-* [berlin-traffic-accidents-2021-00-districts.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-csv/berlin-traffic-accidents-2021-00-districts.csv)
-* [berlin-traffic-accidents-2021-00-forecast-areas.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-csv/berlin-traffic-accidents-2021-00-forecast-areas.csv)
-* [berlin-traffic-accidents-2021-00-planning-areas.csv](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-csv/berlin-traffic-accidents-2021-00-planning-areas.csv)
+* [berlin-traffic-accidents-2021-00-city.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-csv/berlin-traffic-accidents-2021-00-city.csv)
+* [berlin-traffic-accidents-2021-00-details.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-csv/berlin-traffic-accidents-2021-00-details.csv)
+* [berlin-traffic-accidents-2021-00-district-regions.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-csv/berlin-traffic-accidents-2021-00-district-regions.csv)
+* [berlin-traffic-accidents-2021-00-districts.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-csv/berlin-traffic-accidents-2021-00-districts.csv)
+* [berlin-traffic-accidents-2021-00-forecast-areas.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-csv/berlin-traffic-accidents-2021-00-forecast-areas.csv)
+* [berlin-traffic-accidents-2021-00-planning-areas.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-csv/berlin-traffic-accidents-2021-00-planning-areas.csv)
 
 
 ### berlin-traffic-accidents-2021-00-parquet
 name: Berlin Traffic Accidents 2021 00 Parquet
 * owner: Open Data Product
-* url: https://github.com/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2021-00-parquet
+* url: https://github.com/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/tree/main/data/03-gold/berlin-traffic-accidents-2021-00-parquet
 * license: CC-BY 4.0
 * updated: 2025-11-11
 
 **Files**
 
-* [berlin-traffic-accidents-2021-00-city.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-parquet/berlin-traffic-accidents-2021-00-city.parquet)
-* [berlin-traffic-accidents-2021-00-details.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-parquet/berlin-traffic-accidents-2021-00-details.parquet)
-* [berlin-traffic-accidents-2021-00-district-regions.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-parquet/berlin-traffic-accidents-2021-00-district-regions.parquet)
-* [berlin-traffic-accidents-2021-00-districts.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-parquet/berlin-traffic-accidents-2021-00-districts.parquet)
-* [berlin-traffic-accidents-2021-00-forecast-areas.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-parquet/berlin-traffic-accidents-2021-00-forecast-areas.parquet)
-* [berlin-traffic-accidents-2021-00-planning-areas.parquet](https://media.githubusercontent.com/media/open-data-product/open-lifeworlds-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-parquet/berlin-traffic-accidents-2021-00-planning-areas.parquet)
+* [berlin-traffic-accidents-2021-00-city.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-parquet/berlin-traffic-accidents-2021-00-city.parquet)
+* [berlin-traffic-accidents-2021-00-details.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-parquet/berlin-traffic-accidents-2021-00-details.parquet)
+* [berlin-traffic-accidents-2021-00-district-regions.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-parquet/berlin-traffic-accidents-2021-00-district-regions.parquet)
+* [berlin-traffic-accidents-2021-00-districts.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-parquet/berlin-traffic-accidents-2021-00-districts.parquet)
+* [berlin-traffic-accidents-2021-00-forecast-areas.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-parquet/berlin-traffic-accidents-2021-00-forecast-areas.parquet)
+* [berlin-traffic-accidents-2021-00-planning-areas.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-traffic-accidents-source-aligned/refs/heads/main/data/03-gold/berlin-traffic-accidents-2021-00-parquet/berlin-traffic-accidents-2021-00-planning-areas.parquet)
 
 
 ## Classification

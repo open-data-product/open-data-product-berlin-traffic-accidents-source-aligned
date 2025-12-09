@@ -1,13 +1,13 @@
 ---
 dataProductDescriptor: data-product-descriptor
 info:
-  fullyQualifiedName: urn:dpds:openlifeworlds:dataproducts:berlin-traffic-accidents-source-aligned:1.0
+  fullyQualifiedName: urn:dpds:opendataproduct:dataproducts:berlin-traffic-accidents-source-aligned:1.0
   name: Berlin Traffic Accidents source-aligned
   version: '1.0'
   domain: domain
   owner:
-    id: Open Lifeworlds
-    name: Open Lifeworlds
+    id: Open Data Product
+    name: Open Data Product
   id: berlin-traffic-accidents-source-aligned
   entityType:
   displayName: Berlin Traffic Accidents source-aligned
