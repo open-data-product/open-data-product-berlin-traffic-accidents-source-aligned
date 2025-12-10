@@ -8,6 +8,20 @@ metadata:
   license: CC-BY 4.0
   updated: 2025-11-11
   schema:
+    - name: total
+      description: number of accident
+    - name: is_bike
+      description: number of accident with bike involved
+    - name: is_car
+      description: number of accident with car involved
+    - name: is_by_foot
+      description: number of accident with pedestrian involved
+    - name: is_motorcycle
+      description: number of accident with motorcycle involved
+    - name: is_truck
+      description: number of accident with truck involved
+    - name: is_other
+      description: number of accident with other vehicle involved
 input_ports:
   - id: berlin-lor-geodata
     manifest_url: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/refs/heads/main/data-product-manifest.yml
